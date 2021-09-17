@@ -1,21 +1,57 @@
-<?php
+<!doctype html>
+<html lang="en">
 
-$namaSaya = 'Farid Ahmad';
-$alamatSaya = 'Kp Bahuan';
-$jenisKelaminSaya = 'L';
-$umurSaya = 17;
-$agamaSaya = 'Islam';
-$tinggiBadanSaya = 161.7;
-$menikah = false;
-$beratBadanSaya = 55.6;
-$hobiSaya = 'tidur';
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-echo 'Nama Saya : ' . $namaSaya . '<br>';
-echo 'Alamat Saya : ' . $alamatSaya . '<br>';
-echo 'Jenis Kelamin Saya : ' . $jenisKelaminSaya . '<br>';
-echo 'Umur Saya : ' . $umurSaya . ' Tahun <br>';
-echo 'Agama Saya : ' . $agamaSaya . '<br>';
-echo 'Tinggi Badan Saya : ' . $tinggiBadanSaya . ' cm <br>';
-echo 'Menikah : ' . $menikah . '<br>';
-echo 'Berat Badan Saya : ' . $beratBadanSaya . ' Kg<br>';
-echo 'Hobi Saya : ' . $hobiSaya;
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <div class="justify-content-center align-items-center d-flex" style="height: 80vh;">
+    <div class="col-md-6">
+        
+        <div class="card">
+            <div class="card-title mt-4">
+            <h4 class="text-center">Form Login</h4>
+            </div>
+
+            <form action="">
+
+                <div class="card-body">
+                    <div class="form-group mb-3">
+                        <label>Username</label>
+                        <input type="text" name="" class="form-control" placeholder="Masukan Username">
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label>Password</label>
+                        <input type="password" name="" class="form-control" placeholder="Masukan Password">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary me-3">SUBMIT</button>
+                    <button type="reset" class="btn btn-danger">RESET</button>
+            </form>
+        </div>
+        
+    </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
